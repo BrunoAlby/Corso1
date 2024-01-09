@@ -1,2 +1,11 @@
-list = [1,2,3,4,5,6,7,8,9,10]
-print (sum(list))
+def sum_list(list):
+    if not list:
+        return None
+    else:
+        totale=0
+    
+        for item in list:
+          totale += item
+        return totale 
+    
+print (sum_list([2,4]))
